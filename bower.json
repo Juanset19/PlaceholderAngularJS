@@ -1,6 +1,6 @@
 {
-    "name": "PlaceholderAngularJS",
-    "version": "1.0.0.-SNAPSHOT",
+    "name": "placeholder-angularjs",
+    "version": "1.0.0",
     "authors": ["Juan Sebastian Trujillo Valencia, Santiago Ruiz"],
     "license": "MIT",
     "private": true,
