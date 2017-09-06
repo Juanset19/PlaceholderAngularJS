@@ -1,0 +1,61 @@
+/** Placeholder dinámico de Protección S.A.**/
+/*** Aplicar a aplicaciones con Angularjs con la directiva ng-class***/
+
+/*Estilos para los input text y select*/
+
+input[type=text].inputText {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.inputText {
+    height: 30px;
+    width: 100%;
+    color: #8E8E8E;
+    border: none;
+    background: #fff;
+    border-bottom: solid 1px #8E8E8E;
+    border-right: solid 1px #8E8E8E;
+    padding: 1px;
+}
+
+/*Estilo para el borde azul en los inputs y select*/
+.inputText:focus, .inputText:hover {
+    border-bottom: solid 1px #0CB9D6;
+    border-right: solid 1px #0CB9D6;
+}
+
+/* Estilo para que el label se posicione como si fuese un placeholder */
+.placeholderLabel {
+    color: #898989;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 8px;
+    transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+}
+
+/* Aplicar efecto arriba al label del inputText y inputSelect */
+.inputText:focus ~ label.placeholderLabel {
+    top: -15px;
+    font-size: 14px;
+    color: #0CB9D6;
+}
+
+/*Estilo aplicado al label del inputtext o select tiene contenido*/
+.labelActive {
+    top: -15px;
+    font-size: 14px;
+    color: #0CB9D6;
+}
+
+/*Estilo aplicado al  inputtext o select, para cuando tiene contenido*/
+.inputActive {
+    border-bottom: solid 1px #0CB9D6;
+    border-right: solid 1px #0CB9D6;
+}

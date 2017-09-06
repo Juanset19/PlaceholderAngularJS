@@ -1,0 +1,8 @@
+{
+    "name": "PlaceholderAngularJS",
+    "version": "1.0.0.-SNAPSHOT",
+    "authors": ["Juan Sebastian Trujillo Valencia, Santiago Ruiz"],
+    "license": "MIT",
+    "private": true,
+    "ignore": ["**/.*", "bower_components", "tests"]
+}
