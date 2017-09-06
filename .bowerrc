@@ -1,5 +1,4 @@
 {
   "directory": "/_dev/vendor",
-  "proxy": "http://hermes.pragma.com.co:8080",
-  "https-proxy": "http://hermes.pragma.com.co:8080"
+  "strict-ssl": false
 }
